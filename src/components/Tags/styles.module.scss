@@ -1,0 +1,10 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 720px;
+  margin: -6px;
+
+  & > * {
+    margin: 6px;
+  }
+}

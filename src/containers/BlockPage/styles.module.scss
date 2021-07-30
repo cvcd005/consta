@@ -1,0 +1,131 @@
+.container {
+  padding: 228px 0 0 252px;
+  margin-bottom: 399px;
+}
+
+.flex {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.left {
+  width: 552px;
+  margin-right: 24px;
+  padding-top: 20px;
+}
+
+.tab {
+  width: 552px;
+  height: 60px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 133, 255, 0.1),
+      rgba(0, 133, 255, 0.1)
+    ),
+    #ffffff;
+}
+
+.tab_margin {
+  margin-left: -32px;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #14151a;
+  margin: 15px 0 12px 0;
+}
+
+.h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 72px;
+  color: #14151a;
+  margin-bottom: 16px;
+}
+
+.hr {
+  width: 40px;
+  height: 2px;
+  background: #14151a;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #474d57;
+  margin-bottom: 24px;
+  max-width: 552px;
+}
+
+.link {
+  background: linear-gradient(90deg, #0f8f62 0%, #0f8f62 45.83%, #2bb47e 100%);
+  border-radius: 4px;
+  padding: 16px 24px;
+  font-size: 18px;
+  line-height: 48px;
+  color: #ffffff;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.right {
+  width: 552px;
+  background: #f7f7f7;
+  padding: 20px 0 28px 32px;
+}
+
+.video {
+  width: 520px;
+  height: 290px;
+  background: linear-gradient(90deg, #0f8f62 0%, #0f8f62 45.83%, #2bb47e 100%);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px 0 24px 0;
+}
+
+.question {
+  font-size: 20px;
+  line-height: 28px;
+  color: #002033;
+  margin-bottom: 16px;
+}
+
+.count {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 32, 51, 0.3);
+  font-weight: 300;
+
+  &:first-child {
+    margin-right: 16px;
+  }
+}
+
+.experience {
+  background: linear-gradient(90deg, #0f8f62 0%, #0f8f62 45.83%, #2bb47e 100%);
+  border-radius: 4px;
+  width: max-content;
+  padding: 8px 12px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.tags_title {
+  font-size: 32px;
+  line-height: 56px;
+  color: #14151a;
+  margin-bottom: 32px;
+}
+
+.tags {
+  max-width: 720px;
+}
